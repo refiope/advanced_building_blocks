@@ -8,6 +8,7 @@ def bubble_sort (array)
   for loops in (0...array.length - 1)
     for index in (0...array.length - loops - 1)
       array[index], array[index+1] = array[index+1], array[index] if (array[index] > array[index+1]) # switch place if the second value is greater
+    end
   end
   array.inspect
 end

@@ -1,6 +1,5 @@
-#!/~/the_odin_project/ruby_practice
+module Enumerable
 
-class Array
   def my_each
     for index in (0...self.length)
         yield(self[index])
@@ -66,4 +65,5 @@ class Array
     end
     total
   end
+  
 end
